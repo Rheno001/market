@@ -49,7 +49,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Column 4 */}
         <div>
           <h3 className="text-xl font-bold mb-4 uppercase text-[#E26E23]">Subscribe</h3>
           <div className='flex'><input type="email" name="email" id="" placeholder='Enter your Email' className='w-full border-0 rounded-l-md h-[40px] relative text-center text-[#E26E23] p-[5px]' /> <button className='bg-[#E26E23] flex items-center rounded-r-md p-[15px] h-[40px] ml-[-10px]'><img src={vector} alt="" className='ml-[5px] h-[20px]' /></button></div>

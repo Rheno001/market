@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="bg-black text-white py-2">
+    <nav className="bg-black text-white py-2 fixed w-[90%]">
       <div className="container flex justify-between items-center lg:px-[100px] pt-[10px]">
         <img src={logo} alt="" className='w-[100px] h-full' />
         {/* Mobile Menu Button */}
