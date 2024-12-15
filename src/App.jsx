@@ -19,7 +19,7 @@ function App() {
         <p className='text-white text-[12px] text-center lg:text-[20px] lg:mt-[-20px]'>Creative Mind, Creative Works</p>
         <span></span>
       </div>
-      <div className='flex items-center justify-center mt-[30px] lg:mt-[80px]'>
+      <div className='flex w-full items-center justify-center mt-[30px] lg:mt-[80px]'>
         <p className='lg:text-[12px] text-center  text-[white]'>Modern <span className='text-[#E26E23]'>Problem </span>Requires Modern <span className='text-[#E26E23]'>Solution</span></p>
         <button className='mx-[10px] text-[5px] lg:text-[12px] bg-[#E26E23] flex items-center justify-center text-white rounded-xl h-[15px] lg:h-[30px] p-[12px] lg:p-[18px]'>Lets Connect <img src={vector} alt="" className='hidden lg:block h-[8px] lg:h-[20px] mx-[5px] lg:mx-[10px]' /></button>
       </div>
